@@ -3,7 +3,7 @@
 **Author:** Gurunishal Saravanan (Student ID: 801430631)
 **Date:** May 1, 2025
 
-## 📄 Overview
+## Overview
 
 This repository contains the code and report for the Capstone Project on ECG signal classification using both deep learning models and traditional methods. We implement and compare three approaches on the ECG5000 dataset:
 
@@ -11,7 +11,7 @@ This repository contains the code and report for the Capstone Project on ECG sig
 * **Method B:** Ensemble of deep neural networks (FCN, ResNet, Encoder, MLP) with majority voting.
 * **Method C:** K-Nearest Neighbors (KNN) as a traditional baseline.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── data/                   # Processed ECG5000 dataset splits
@@ -28,7 +28,7 @@ This repository contains the code and report for the Capstone Project on ECG sig
 └── README.md               # This file
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 
@@ -49,7 +49,7 @@ This repository contains the code and report for the Capstone Project on ECG sig
    pip install -r requirements.txt
    ```
 
-## ▶️ Running Experiments
+## Running Experiments
 
 * **Data Preprocessing:**
 
@@ -68,7 +68,7 @@ This repository contains the code and report for the Capstone Project on ECG sig
   * Check `results/metrics.csv` for accuracy and F1-scores.
   * Plots in `results/plots/` show training curves and ensemble comparisons.
 
-## 📈 Results Summary
+## Results Summary
 
 | Method       | Accuracy (%) | F1-Score |
 | ------------ | ------------ | -------- |
@@ -78,13 +78,13 @@ This repository contains the code and report for the Capstone Project on ECG sig
 
 > The KNN baseline slightly outperformed the CNN, while the ensemble underperformed due to sensitivity to hyperparameters.
 
-## 📝 References
+## References
 
 1. Ansari, Y., Mourad, O., Qaraqe, K., & Serpedin, E. (2023). Deep learning for ECG Arrhythmia detection and classification: an overview of progress for period 2017–2023. *Frontiers in Physiology*, 14. DOI: 10.3389/fphys.2023.1246746
 2. Fawaz, H. I., Forestier, G., Weber, J., Idoumghar, L., & Muller, P.-A. (2019). Deep Neural Network Ensembles for Time Series Classification. *IJCNN*, Budapest. DOI: 10.1109/IJCNN.2019.8852018
 3. Fawaz, H. I., Forestier, G., Weber, J., Idoumghar, L., & Muller, P.-A. (2019). InceptionTime: Finding AlexNet for Time Series Classification. *arXiv preprint* arXiv:1909.04939
 
-## 🚀 Future Work
+## Future Work
 
 * Explore lightweight models for real-time deployment on wearable devices.
 * Validate on additional ECG datasets to ensure generalization.
